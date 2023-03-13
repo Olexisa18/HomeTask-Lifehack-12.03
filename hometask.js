@@ -6,11 +6,11 @@ let Olha= {
     "ukrainian":true
 };
 
-function f8() {
+function Data() {
     let key = document.querySelector('.inpt').value;
     if (Olha[key] !== undefined) { document.querySelector('.outpt').innerHTML = Olha[key] }
     else { document.querySelector('.outpt').innerHTML = 'There is no information about data you entered' }
 
 }
 
-document.querySelector('.btn').onclick = f8;
+document.querySelector('.btn').onclick = Data;
